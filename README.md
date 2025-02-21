@@ -13,18 +13,18 @@ Nota: você pode criar o backup numa partição do próprio disco, por exemplo, 
 1. Tudo pronto, abra o PowerShell como administrador.
 2. Copie o comando abaixo:
 
-   ```Powershell
+```powershell
 
-   wbAdmin start backup -backupTarget:E: -include:C: -allCritical -quiet
+   "wbAdmin start backup -backupTarget:E: -include:C: -allCritical -quiet"
    ```
 
 3. **Importante:** A letra `E` no comando deve ser substituída pela letra da unidade que vai receber o backup. 
 
    Por exemplo, se você preferir usar a unidade `D`, a linha de comando ficaria:
 
-   ```Powershell
+```powershell
    
-   wbAdmin start backup -backupTarget:D: -include:C: -allCritical -quiet
+   "wbAdmin start backup -backupTarget:D: -include:C: -allCritical -quiet"
    ```
 
 4. Pressione Enter e aguarde a conclusão do backup.
