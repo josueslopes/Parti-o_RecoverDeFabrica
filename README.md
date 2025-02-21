@@ -1,7 +1,7 @@
 # Parti-o_RecoverDeFabrica
 ##Criar Partição de Fabrica Recovery
 
-Claro! Aqui está o conteúdo em formato README.md:
+
 
 
 # Backup usando o wbAdmin
